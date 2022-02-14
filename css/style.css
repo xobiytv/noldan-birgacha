@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+    /*    ====================== header start =================*/
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.23) ;
+    background: url('../img/Rectangle 1.png') no-repeat center center /cover;
+    
+    /* background-attachment: fixed; */
+}
+.nav-a{
+    background: white;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.navbar{
+    padding: 0;
+    /* height: 70px; */
+    
+    /* background: rgb(112, 152, 238); */
+}
+
+.navbar-brand img{
+    padding: 5px 0;
+    width: 160px;
+}
+.navbar-nav li a{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #29275E;
+}
+
+
+.hed-text{
+    /* transform: translateY(170px); */
+    padding: 200px 0 0 0 ;
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.23) ;
+}
+
+.hed-text h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 60px 0 50px 100px;
+}
+
+.hed-text a:hover{
+    color: white;
+    /* font-size: 22px; */
+    background-color: #29275E;
+    border: 2px solid #29275E;
+     padding:10px 50px;
+    border-radius: 10px;
+}
+.hed-text a{
+    margin: 70px 0 0 100px;
+    color: #29275E;
+    font-size: 17px;
+    font-weight: 500;
+    border: 2px solid white;
+    padding:10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+/* ================ header stop  ==================== */
+.biz{
+    width: 100%;
+    height: 100vh;
+}
+
+.biz h1{
+    margin: 70px 20px 40px;
+    color: #29275E;
+    font-weight: bold;
+}
+.biz-text-1 {
+    width: 100%;
+    background-color: #F6F6F6;
+    margin: 10px;
+    /* border-radius: 10px; */
+    
+}
+
+/* .biz-bloc{
+    display: flex;
+} */
+
+.biz-text-1-a {
+    /* padding: 20px; */
+    /* width: 30px; */
+    width: 100%;
+}
+
+.biz-text-1-a b{
+    color:#29275E;
+    font-size: 22px;
+}
+
+.biz-text-1-a a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #29275E;
+    border: 2px solid #29275E;
+    padding: 5px 25px;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.biz-text-1-a a:hover{
+    display: flex;
+    justify-content: center;
+    color: #29275E;
+    background-color: #fff;
+    border: 2px solid #29275E;
+    padding: 5px 25px;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.biz-text-1-b img {
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+/* ======================== kurslar stop=========-======== */
+/* ======================== about start=========-======== */
+
+.about{
+    width: 100%;
+    height: 100vh;
+}
+
+.about h1{
+    margin: 70px 20px 40px;
+    color: #29275E;
+    font-weight: bold;
+}
+
+.about-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-text p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #29275E;
+    /* background-color: #F6F6F6; */
+    width: 100%;
+    padding: 30px 0 0 40px;
+}
+
+.about-text a{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    color: white;
+    background-color: #29275E;
+    border: 2px solid #29275E;
+    padding: 5px 25px;
+    margin: 20px 0 0 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* ======================== about stop=========-======== */
+
+
+/* ======================== avzal start=========-======== */
+
+.avzal{
+    width: 100%;
+    /* height: 100vh; */
+
+}
+
+.avzal h1{
+    color: #29275E;
+    font-weight: bold;
+}
+
+.avzal-leff-a{
+    background: #F6F6F6;
+    margin: 20px 0;
+}
+
+.avzal-leff-a span{
+    color: #29275E;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.avzal-leff-a p{
+    color: #29275E;
+    padding: 30px;
+}
+
+.avzal-img{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/Star 4.png') no-repeat center center;
+}
+
+/* ======================== avzal stop=========-======== */
+
+/* ======================== aloqa start=========-======== */
+    .aloqa{
+        width: 100%;
+        /* height: 100vh; */
+        /* margin: 50px 0 0 0; */
+        background: #29275E;
+        margin: 0;
+        padding: 0;
+    }
+    .a-leff{
+        background-color: #F6F6F6;
+        padding:0 100px;
+    }
+
+    .aloqa-a{
+        padding: 80px 0 30px 0;
+        color: #29275E;
+        font-weight: bold;
+    }
+
+    .a-l-aloqa{
+        color: #29275E;
+        font-size: 20px;
+    }
+    .a-l-aloqa i{
+        color: #29275E;
+        font-size: 20px;
+        /* padding: 0 0 40px 0; */
+    }
+    .l-a-internet p{
+        padding: 30px 0 0 0;
+    }
+    .l-a-internet ul li i{
+        padding:0 10px 50px ;
+        font-size: 25px;
+    }
+
+    .aloqa-b{
+        color: #fff;
+        
+    }
+
+    .a-right{
+        background: #29275E;
+        padding: 80px 0;
+    }
+    form input{
+        width: 100%;
+        border-radius: 5px;
+        height: 50px;
+    }
+
+    form a{
+        width: 120px;
+        height: 40px;
+        
+        color: #29275E;
+        background-color: #fff;
+        border: 2px solid #29275E;
+        padding: 5px 25px;
+        /* margin: 20px 0 0 0; */
+        text-decoration: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transform: translateX(15px);
+    }
+
+    .footer{
+        width: 100%;
+        /* height: 40vh; */
+        background-color: #262B48;
+    }
+
+    .f-hed{
+        margin: 40px 0;
+    }
+    .f-logo img{
+        width: 90px;
+        height: 44px;
+        margin: 5px 10px;
+    }
+    .f-logo p{
+        color: white;
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .f-text{
+        padding:0 10px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .f-bolm ul span{
+        color: #F6F6F6;
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+    .f-bolm ul li a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .teg{
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .teg p{
+        padding: 10px 0 0 0;
+        color: #262B48;
+    }
+/* ======================== avzal stop=========-======== */
+
+
+@media (max-width:991px){
+    .biz h1{
+        margin: 80px;
+    }
+
+    .a-leff{
+        padding:0 50px;
+    }
+}
+
+
+
+@media (max-width:838px){
+
+    /*  header start*/
+    .hed-text h1{
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 60px 0 30px 50px;
+    }
+
+    .hed-text a{
+        margin: 70px 0 0 60px;
+    }
+    .hed-text a:hover{
+        margin: 70px 0 0 60px;
+    }
+
+    /* ========================  header stop ========================  */
+
+    .about-text p{
+        padding: 40px 0 0 0 ;
+    }
+
+
+
+}
+
+@media (max-width:715px){
+    .avzal{
+        height: auto;
+    }
+}
+
+
+@media (max-width:546px){
+    /* kurslar start */
+    .biz-text-1-a b{
+        color:#29275E;
+        font-size: 14px;
+    }
+
+    .biz-text-1-b img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .biz-text-1-a a{
+        padding: 2px 10px;
+        margin: 10px 0 0 0;
+    
+   }
+   /* kurslae stop */
+
+   /* .biz h1{
+       margin: 0;
+   } */
+   /* ===== avzallik start ================ */
+   .avzal h1{
+       padding: 60px 0 0 0;
+   }
+   .avzal-leff-a{
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       padding: 10px;
+   }
+   .avzal-leff-a p{
+       padding: 0;
+   }
+    /* ===== avzallik stop ================ */
+
+       form input{
+        /* width: 300px; */
+        margin:0 0 0 25px;
+        border-radius: 5px;
+        height: 50px;
+        justify-content: center !important;
+    }
+}
+
+
+@media (max-width:340px){
+    /*   header start*/
+
+    .hed-text h1{
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 60px 0 30px 0;
+    }
+
+    .hed-text a{
+        margin: 70px 0 0 10px;
+    }
+    .hed-text a:hover{
+        margin: 70px 0 0 10px;
+    }
+    /* ======================== header stop ========================  */
+    /* kurlar start */
+    .biz-text-1-b img {
+        width: 170px;
+        height: 100px;
+
+    }
+    /* kurslar stop */
+
+     /* ===== avzallik start ================ */
+   .avzal h1{
+       padding: 140px 0 0 0;
+   }
+  
+    /* ===== avzallik stop ================ */
+
+}
+
