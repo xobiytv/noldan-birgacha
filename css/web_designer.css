@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+    /*    ====================== header start =================*/
+
+header{
+    width: 100%;
+    min-height: 100%;
+    background-color:rgba(0, 0, 0, 0.23) ;
+    background: url('../img/web_disigner.jpg') no-repeat center center /cover;
+    
+    /* background-attachment: fixed; */
+}
+.nav-a{
+    background: white;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.navbar{
+    padding: 0;
+    /* height: 70px; */
+    
+    /* background: rgb(112, 152, 238); */
+}
+
+.navbar-brand img{
+    padding: 5px 0;
+    width: 160px;
+}
+.navbar-nav li a{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #29275E;
+    text-decoration: none;
+}
+
+.navbar-nav li a:hover{
+    color: #374db3;
+}
+
+.hed-text{
+    /* transform: translateY(170px); */
+    padding: 200px 0 0 0 ;
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.23) ;
+}
+
+.hed-text h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 60px 0 50px 100px;
+}
+
+.hed-text a:hover{
+    color: white;
+    /* font-size: 22px; */
+    background-color: #29275E;
+    border: 2px solid #29275E;
+     padding:10px 50px;
+    border-radius: 10px;
+}
+.hed-text a{
+    margin: 70px 0 0 100px;
+    color: #29275E;
+    font-size: 17px;
+    font-weight: 500;
+    border: 2px solid white;
+    padding:10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+/* ================ header stop  ==================== */
+
+/* ======================== about start=========-======== */
+
+.about{
+    width: 100%;
+    height: 100vh;
+}
+.about .row{
+    margin-left: 0;
+}
+
+.about h1{
+    margin: 70px 20px 40px;
+    color: #29275E;
+    font-weight: bold;
+}
+
+.about-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.about-img {
+    margin: 70px 0 0 -20px ;
+}
+.about-text{
+    background-color: #F6F6F6;
+    margin: 70px 0 0 0 ;
+}
+.about-text h3{
+    color: #29275E;
+    font-weight: 500;
+    padding:30px 0 0 30px;
+}
+.about-text p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #29275E;
+    /* background-color: #F6F6F6; */
+    width: 100%;
+    padding: 20px 0 50px 40px;
+}
+
+.about-text a{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    color: white;
+    background-color: #29275E;
+    border: 2px solid #29275E;
+    padding: 5px 25px;
+    margin: 20px 0 0 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* ======================== about stop=========-======== */
+
+
+/* ======================== avzal start=========-======== */
+
+.avzal{
+    width: 100%;
+    /* height: 100vh; */
+
+}
+.avzal .row{
+    margin-left: 0;
+}
+
+.avzal h3{
+    color: #29275E;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.fact{
+    background-color: #F6F6F6;
+}
+.avzal-leff-a{
+    background: #F6F6F6;
+   
+}
+
+.avzal-leff-a span{
+    color: #29275E;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.avzal-leff-a p{
+    color: #29275E;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+
+/* ======================== avzal st op=========-======== */
+/* ======================== malimmot start=========-======== */
+.malimot{
+    width: 100%;
+    /* height: 100vh; */
+}
+.m-fact{
+    background-color: #F6F6F6;
+    padding:30px 10px;
+    margin: 5px 5px 5px 0;
+
+}
+.m-fact p{
+    color: #29275E;
+    font-size: bold;
+}
+section .card .image{
+     height: 140px;
+     width: 140px;
+     border-radius: 50%;
+     padding: 3px;
+     background: #29275E;
+}
+section .card .image img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.card{
+    position: relative;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 280px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.card::before{
+    content: "";
+    position: relative;
+    height: 40%;
+    width: 100%;
+    background: #29275E;
+    border-radius: 20px 20px 0 0;
+}
+
+.card .card-content{
+    padding: 30px;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* z-index: 1000; */
+}
+
+.card .media-icons{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+.card .media-icons i{
+    opacity: 0.6;
+    color: #fff;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+
+}
+
+.card .media-icons i:hover{
+    opacity: 1;
+}
+
+.card .name-profession{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    color: #333;
+    margin-top: 10px;
+}
+
+.name-profession .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.name-profession .profession{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card .rating{
+    align-items: center;
+    flex-direction: column;
+    margin-top: 18px;
+}
+.card .rating i{
+   font-size: 18px;
+   margin:0 2px;
+   color: #29275E;
+}
+
+.card .button{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card .button button{
+    background: #29275E;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card .button button:hover{
+    background: #29275E;
+}
+/* ======================== malimot st =op=========-======== */
+
+
+/* ======================== aloqa start=========-======== */
+    .aloqa{
+        width: 100%;
+        /* height: 100vh; */
+        
+        /* background: #29275E; */
+        margin: 0;
+        padding: 100px 0 0 0;
+    }
+    .aloqa .row{
+        margin-left: 0;
+    }
+    .a-leff{
+        background-color: #F6F6F6;
+        padding:0  200px 0 100px;
+        width: 100vw;
+        margin: 0;
+    }
+
+    .aloqa-a{
+        padding: 80px 0 30px 0;
+        color: #29275E;
+        font-weight: bold;
+        /* margin: 150px 0 0 0; */
+
+    }
+
+    .a-l-aloqa{
+        color: #29275E;
+        font-size: 20px;
+    }
+    input{
+        padding: 0 0 0 10px;
+        font-size: 20px;
+    }
+    .a-l-aloqa i{
+        color: #29275E;
+        font-size: 20px;
+        /* padding: 0 0 40px 0; */
+    }
+    .l-a-internet p{
+        padding: 30px 0 0 0;
+    }
+    .l-a-internet ul li i{
+        padding:0 10px 50px ;
+        font-size: 25px;
+    }
+
+    .aloqa-b{
+        color: #fff;
+        
+    }
+
+    .a-right{
+        background: #29275E;
+        padding: 80px;
+        width: 100%;
+
+    }
+    form input{
+        width: 100%;
+        border-radius: 5px;
+        height: 50px;
+    }
+
+    form a{
+        width: 120px;
+        height: 40px;
+        
+        color: #29275E;
+        background-color: #fff;
+        border: 2px solid #29275E;
+        padding: 5px 20px;
+        /* margin: 20px 0 0 0; */
+        text-decoration: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transform: translateX(15px);
+    }
+
+    .footer{
+        width: 100%;
+        /* height: 40vh; */
+        background-color: #262B48;
+    }
+
+    .f-hed{
+        margin: 40px 0;
+    }
+    .f-logo img{
+        width: 90px;
+        height: 44px;
+        margin: 5px 10px;
+    }
+    .f-logo p{
+        color: white;
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .f-text{
+        padding:0 10px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .f-bolm ul span{
+        color: #F6F6F6;
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+    .f-bolm ul li a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .teg{
+        width: 100%;
+        height: 40px;
+        background-color: #fff;
+    }
+
+    .teg p{
+        padding: 10px 0 0 0;
+        color: #262B48;
+    }
+/* ======================== avzal stop=========-======== */
+/* ======================== dars start=========-======== */
+
+
+    .lesson{
+        width: 100%;
+    }
+    .lesson-text h3{
+        color: #29275E;
+        font-weight: bold;
+        margin: 120px 0 30px;
+    }
+    .swiper {
+        width: 80%;
+        height: 50%;
+      }
+      .swiper-wrapper{
+        width: 100%;
+        height: 50%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        height: 100%;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide video {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      
+
+      .swiper {
+        width: 100%;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .swiper-slide {
+        background-size: cover;
+        background-position: center;
+      }
+      .swiper-wrapper
+      .mySwiper2 {
+        height: 80%;
+        width: 100%;
+      }
+
+      .mySwiper {
+        height: 300px;
+        box-sizing: border-box;
+        padding: 10px 0;
+      }
+
+      .mySwiper .swiper-slide {
+        width: 40%;
+        height: 100%;
+        /* opacity: 0.4; */
+      }
+
+      .mySwiper .swiper-slide-thumb-active {
+        opacity: 1;
+      }
+
+      .swiper-slide video {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+/* ======================== avzal stop=========-======== */
+
+
+@media (max-width:991px){
+    .biz h1{
+        margin: 80px;
+    }
+
+    .a-leff{
+        padding:0 50px;
+    }
+}
+
+
+
+@media (max-width:838px){
+
+    /*  header start*/
+    .hed-text h1{
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 60px 0 30px 50px;
+    }
+
+    .hed-text a{
+        margin: 70px 0 0 60px;
+    }
+    .hed-text a:hover{
+        margin: 70px 0 0 60px;
+    }
+
+    /* ========================  header stop ========================  */
+
+    .about-text p{
+        padding: 40px 0 0 0 ;
+    }
+
+
+
+}
+
+@media (max-width:715px){
+    .avzal{
+        height: auto;
+    }
+}
+
+
+@media (max-width:546px){
+    /* kurslar start */
+    .biz-text-1-a b{
+        color:#29275E;
+        font-size: 14px;
+    }
+
+    .biz-text-1-b img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .biz-text-1-a a{
+        padding: 2px 10px;
+        margin: 10px 0 0 0;
+    
+   }
+   /* kurslae stop */
+
+   /* .biz h1{
+       margin: 0;
+   } */
+   /* ===== avzallik start ================ */
+   .avzal h1{
+       padding: 60px 0 0 0;
+   }
+   .avzal-leff-a{
+       /* flex-direction: column; */
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       padding: 10px;
+   }
+   .avzal-leff-a p{
+       padding: 0;
+   }
+    /* ===== avzallik stop ================ */
+
+       form input{
+        /* width: 300px; */
+        margin:0 0 0 25px;
+        border-radius: 5px;
+        height: 50px;
+        justify-content: center !important;
+    }
+}
+
+
+@media (max-width:340px){
+    /*   header start*/
+
+    .hed-text h1{
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 60px 0 30px 0;
+    }
+
+    .hed-text a{
+        margin: 70px 0 0 10px;
+    }
+    .hed-text a:hover{
+        margin: 70px 0 0 10px;
+    }
+    /* ======================== header stop ========================  */
+    /* kurlar start */
+    .biz-text-1-b img {
+        width: 170px;
+        height: 100px;
+
+    }
+    /* kurslar stop */
+
+     /* ===== avzallik start ================ */
+   .avzal h1{
+       padding: 140px 0 0 0;
+   }
+  
+    /* ===== avzallik stop ================ */
+
+}
+

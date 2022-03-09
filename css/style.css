@@ -11,7 +11,7 @@
 
 header{
     width: 100%;
-    height: 100vh;
+    min-height: 100%;
     background-color:rgba(0, 0, 0, 0.23) ;
     background: url('../img/Rectangle 1.png') no-repeat center center /cover;
     
@@ -39,8 +39,12 @@ header{
     font-size: 18px;
     font-weight: 700;
     color: #29275E;
+    text-decoration: none;
 }
 
+.navbar-nav li a:hover{
+    color: #374db3;
+}
 
 .hed-text{
     /* transform: translateY(170px); */
@@ -147,6 +151,9 @@ header{
     width: 100%;
     height: 100vh;
 }
+.about .row{
+    margin-left: 0;
+}
 
 .about h1{
     margin: 70px 20px 40px;
@@ -191,6 +198,9 @@ header{
     /* height: 100vh; */
 
 }
+.avzal .row{
+    margin-left: 0;
+}
 
 .avzal h1{
     color: #29275E;
@@ -227,24 +237,35 @@ header{
     .aloqa{
         width: 100%;
         /* height: 100vh; */
-        /* margin: 50px 0 0 0; */
-        background: #29275E;
+        
+        /* background: #29275E; */
         margin: 0;
-        padding: 0;
+        padding: 100px 0 0 0;
+    }
+    .aloqa .row{
+        margin-left: 0;
     }
     .a-leff{
         background-color: #F6F6F6;
-        padding:0 100px;
+        padding:0  200px 0 100px;
+        width: 100vw;
+        margin: 0;
     }
 
     .aloqa-a{
         padding: 80px 0 30px 0;
         color: #29275E;
         font-weight: bold;
+        /* margin: 150px 0 0 0; */
+
     }
 
     .a-l-aloqa{
         color: #29275E;
+        font-size: 20px;
+    }
+    input{
+        padding: 0 0 0 10px;
         font-size: 20px;
     }
     .a-l-aloqa i{
@@ -267,7 +288,9 @@ header{
 
     .a-right{
         background: #29275E;
-        padding: 80px 0;
+        padding: 80px;
+        width: 100%;
+
     }
     form input{
         width: 100%;
@@ -282,7 +305,7 @@ header{
         color: #29275E;
         background-color: #fff;
         border: 2px solid #29275E;
-        padding: 5px 25px;
+        padding: 5px 20px;
         /* margin: 20px 0 0 0; */
         text-decoration: none;
         border-radius: 5px;
@@ -329,6 +352,7 @@ header{
 
     .teg{
         width: 100%;
+        height: 40px;
         background-color: #fff;
     }
 
