@@ -61,7 +61,7 @@
                     
                 </h1>
 
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5mtJqr-qdYmwMW3IWQBNPctkMqcJEdTrzOrBoitJuUMnoYg/viewform?usp=sf_link">Kursga yozilish</a>
+                <a href="#aloqa">Kursga yozilish</a>
             </div>
         </div>
     </header>
@@ -309,19 +309,38 @@
                     </div>
 
                     <div class="a-l-aloqa col-lg-8 col-md-10 col-sm-8 col-xs-8 d-flex justify-content-end">
-                        <form method="POST" data-netlify="true">
-                            <div>
+                         <form action="" onsubmit=" return sendtelegram()">
+                            <!-- <div>
                                 <label for="fristName">Ismingiz va Familyangiz</label>
-                                <input class="col-xs-5" type="text" name="fristName" placeholder="I.F.Sh kriting" id="fristName">
+                                <input class="col-xs-5"type="text" name="name" id="name" placeholder="Ismingiz" required placeholder="I.F.Sh kriting" id="fristName">
                             </div>
                             <div>
                                 <label for="fristEmai">Relefon raqam</label>
-                                <input type="email" name="fristName" placeholder="Relefon raqam kriting" id="fristEmai">
+                                <input type="text" name="name" id="name" placeholder="Raminggiz" required placeholder="Relefon raqam kriting" id="fristEmai">
                             </div>
                             <br>
                             <div class="col-12 d-flex justify-content-end" >
-                                <a type="submit"> Yuborish</a>
+                               <input type="submit" value="Yuborish" id="btn">
+                            </div> -->
+                           <div>
+                                <label for="fristName">Ismingiz va Familyangiz</label>
+                                <input class="col-xs-5"type="text" name="name" id="name" placeholder="I.F.Sh kriting!" required placeholder="I.F.Sh kriting" id="fristName">
                             </div>
+                            <div>
+                                <label for="fristEmai">Relefon raqam</label>
+                                <input type="text" name="namber" id="namber" placeholder="Relefon raqam kriting" required placeholder="Relefon raqam kriting" id="fristEmai">
+                            </div> 
+                            <div>
+                                <label for="fristEmai">Kursni kiriting</label>
+                                <input type="text" name="message" id="message" placeholder="Kursni kiriting" required placeholder="Relefon raqam kriting" id="fristEmai">
+                            </div> 
+                            <br>
+                            <div class="col-12 d-flex justify-content-end" >
+                                <button type="submit" id="btn"> Yuborish</button>
+                            </div>
+                            <!-- <div class="col-12 d-flex justify-content-end" >
+                                <a type="submit"> Yuborish</a>
+                            </div> -->
                             
                         </form>
                     </div>
@@ -424,6 +443,7 @@
     <script src="./js/JQuery.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    
+    <script src="./js/sendtelegram.js"></script>
+    <script src="./js/ajax.min.js"></script>
 </body>
 </html>
