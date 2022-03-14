@@ -1,7 +1,7 @@
 //bot token
-var telegram_bot_id = "5184457837:AAHqfDQkmtNDZju1wKJlj7RcblOi_M-XZww"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
+var telegram_bot_id = "5196620633:AAG2d4DpzG4QdhXYecgL06odJ9MSF7f540U"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
 //chat id
-var chat_id = 1294926096; // 1111'ni o'rniga habar borishi kerak bo'lgan joyni ID'sini yozing (Batafsil videoda)
+var chat_id = 5194384811; // 1111'ni o'rniga habar borishi kerak bo'lgan joyni ID'sini yozing (Batafsil videoda)
 var u_name, email, message;
 var ready = function() {
     u_name = document.getElementById("name").value;
