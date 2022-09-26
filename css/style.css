@@ -288,14 +288,16 @@ header{
 
     .a-right{
         background: #29275E;
-        padding: 80px;
+        padding: 30px;
+        margin: 0;
         width: 100%;
 
     }
     form input{
-        width: 100%;
+        width: 100% !important;
         border-radius: 5px;
         height: 50px;
+        margin: 0 !important;
     }
 
     form button{
@@ -310,7 +312,7 @@ header{
         text-decoration: none;
         border-radius: 5px;
         text-decoration: none;
-        transform: translateX(15px);
+        /* transform: translateX(15px); */
     }
 
     .footer{
@@ -365,7 +367,8 @@ header{
 
 @media (max-width:991px){
     .biz h1{
-        margin: 80px;
+        margin: 80px 0 0 35px;
+        font-size: 30px;
     }
 
     .a-leff{
@@ -397,7 +400,14 @@ header{
     .about-text p{
         padding: 40px 0 0 0 ;
     }
-
+    .aloqa-b{
+       font-size: 30px;
+        
+    }
+    .aloqa-a{
+       font-size: 30px;
+        
+    }
 
 
 }
